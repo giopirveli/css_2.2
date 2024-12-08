@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#chooseLink p{
+display: inline-block;
+margin-left: 20px;
+}
+#chooseLink{
+    display: inline-block;
+    margin: 0px 170px;
+}
+nav{
+    width: 980px;
+    text-align: center;
+}
+header{
+    width: 1140px;
+    padding: 12px 80px;
+    margin: 0 auto;
+}
+nav input{
+    border-radius: 8px;
+background-color: #00AC25;
+width: 105px;
+height: 35px;
+padding: 8px 16px;
+color: white;
+font-size: 14px;
+border: solid white 1px;
+}
+#aboutLink{
+    color: deeppink;
+    font-size: 18px;
+}

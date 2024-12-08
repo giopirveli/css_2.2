@@ -1,36 +1,103 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-#chooseLink p{
-display: inline-block;
-margin-left: 20px;
+
+#chooseLink p {
+    display: inline-block;
+    margin-left: 20px;
 }
-#chooseLink{
+
+#chooseLink {
     display: inline-block;
     margin: 0px 170px;
 }
-nav{
+
+nav {
     width: 980px;
     text-align: center;
 }
-header{
+
+header {
     width: 1140px;
     padding: 12px 80px;
     margin: 0 auto;
+    margin-bottom: 221px;
 }
-nav input{
+
+nav input {
     border-radius: 8px;
-background-color: #00AC25;
-width: 105px;
-height: 35px;
-padding: 8px 16px;
-color: white;
-font-size: 14px;
-border: solid white 1px;
+    background-color: #00AC25;
+    width: 105px;
+    height: 35px;
+    padding: 8px 16px;
+    color: white;
+    font-size: 14px;
+    border: solid white 0px;
 }
-#aboutLink{
+
+#aboutLink {
     color: deeppink;
     font-size: 18px;
+}
+
+#mainBox {
+    text-align: center;
+}
+
+#mainBox h1 {
+    font-size: 72px;
+    margin-bottom: 24px;
+}
+
+section {
+    margin: 0 auto;
+    width: 1316px;
+}
+
+span {
+    display: block;
+    color: deeppink;
+}
+
+#mainBox p {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+#mainBox h2{
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+#secondParagrap{
+width: 716px;
+margin: 0 auto;
+margin-bottom: 24px;
+color: #6941C6;
+font-size: 24px
+}
+#mainBox input{
+    padding: 16px 24px;
+    border-radius: 8px;
+    background-color: #00AC25;
+    color: white;
+    border: solid 0px white;
+}
+main{
+    margin-bottom: 535px;
+}
+footer{
+    width: 1920px;
+    padding: 48px 0px;
+    background-color: #6941C6;
+}
+#conteiner{
+    width: 1216px;
+    margin: 0 auto;
+}
+#footerLinks{
+    display: inline-block;
+}
+#footerLinks p{
+    display: inline-block;
 }

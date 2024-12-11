@@ -15,7 +15,7 @@
 }
 
 nav {
-    width: 980px;
+    max-width: 980px;
     text-align: center;
 }
 
@@ -29,12 +29,13 @@ header {
 nav input {
     border-radius: 8px;
     background-color: #00AC25;
-    width: 105px;
+    max-width: 105px;
     height: 35px;
     padding: 8px 16px;
     color: white;
     font-size: 14px;
     border: solid white 0px;
+    cursor: pointer;
 }
 
 #aboutLink {
@@ -70,7 +71,7 @@ span {
     margin-bottom: 24px;
 }
 #secondParagrap{
-width: 716px;
+max-width: 716px;
 margin: 0 auto;
 margin-bottom: 24px;
 color: #6941C6;
@@ -82,6 +83,7 @@ font-size: 24px
     background-color: #00AC25;
     color: white;
     border: solid 0px white;
+    cursor: pointer;
 }
 main{
     margin-bottom: 535px;
@@ -91,13 +93,26 @@ footer{
     padding: 48px 0px;
     background-color: #6941C6;
 }
+#conteiner img{
+    vertical-align: middle;
+}
 #conteiner{
-    width: 1216px;
+    max-width: 1216px;
     margin: 0 auto;
+    vertical-align: middle;
 }
 #footerLinks{
     display: inline-block;
+    margin: 0 190px;
 }
-#footerLinks p{
+#footerLinks a{
     display: inline-block;
+    text-decoration:none;
+    color: #E9D7FE;
+    margin-left: 32px;
+}
+#conteiner p{
+    display: inline-block;
+    color: #D6BBFB;
+    max-width: 160px;
 }
